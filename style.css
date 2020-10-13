@@ -1,0 +1,30 @@
+@import "reset.css";
+@import "variables.css";
+
+/* Component */
+@import "component/status-bar.css";
+@import "component/nav-bar.css";
+@import "component/screen-header.css";
+@import "component/user-component.css";
+@import "component/badge.css";
+@import "component/icon-row.css";
+@import "component/alternative-screen-header.css";
+
+/* Screen */
+@import "screen/login.css";
+@import "screen/friends.css";
+@import "screen/find.css";
+@import "screen/more.css";
+@import "screen/settings.css";
+@import "screen/chats.css";
+
+body {
+  color: #2e363e;
+
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu;
+}
+
+.main-screen {
+  padding: 0px var(--horizontal-space);
+}
